@@ -3,6 +3,7 @@ resource "aws_security_group" "web_ssh" {
   description = "open ssh traffic"
  
 
+  
   ingress {
     from_port = 22
     to_port = 22
